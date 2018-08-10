@@ -63,7 +63,7 @@ experienced OCaml programmer to participate).
   Simply make a pull request. You can also open an issue requesting
   commit access.
 
-- **Will all projects in ocaml-community have some Continous Integration (CI) setup?**
+- **Will all projects in ocaml-community have some Continuous Integration (CI) setup?**
 
   CI and automated testing is important for keeping code well
   maintained. Our goal is to eventually have an CI system, but we
