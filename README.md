@@ -11,9 +11,10 @@ In other words, the organization provides a place to host open source
 OCaml packages that benefit from collective maintanance.
 
 Unmaintained packages that are of significant interest can be adopted
-by ocaml-community. Maintenance then performed collaboratively by the
-community. An official maintainer will be assigned to individual
-packages to make decisions about pull requests where possible.
+by ocaml-community. Maintenance will then be performed collaboratively
+by the community. An official maintainer will be assigned to
+individual packages to make decisions about pull requests where
+possible.
 
 At minimum, maintenance consists of updating software to keep it
 working over time, as well as maintaining the corresponding OPAM
