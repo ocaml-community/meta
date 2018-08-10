@@ -53,7 +53,8 @@ experienced OCaml programmer to participate).
   Open an issue on the "manifesto" repository explaining what the
   project is, where it is currently hosted (if anywhere), and what
   efforts you have made to contact the existing maintainers to make
-  sure they do not intend to continue maintenance.
+  sure they do not intend to continue maintenance (This can be an issue
+  on the original project, or e-mail communication).
 
 - **Can I propose a project I wrote?**
 
