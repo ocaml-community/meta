@@ -44,7 +44,7 @@ experienced OCaml programmer to participate).
   The official ocaml organization is for maintaining the OCaml
   compiler itself, OPAM, odoc, and other key infrastructural
   software. The ocaml-community GitHub organization is for adopting
-  and maintaining unofficial packages that are of widespread use but might lack
+  and maintaining packages that are of widespread use but might lack
   active maintainers.
 
 - **How can I propose adopting a package?**
