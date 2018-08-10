@@ -3,12 +3,12 @@ collaboratively improved. Please contribute!*
 
 ## What is OCaml-community?
 
-OCaml-community is a github organization dedicated to the
+OCaml-community is a GitHub organization dedicated to the
 collaborative and community-driven long-term maintenance of OCaml
 packages.
 
-In other words, the project provides a place to maintain open source
-OCaml packages that lack a maintainer.
+In other words, the organization provides a place to host open source
+OCaml packages that benefit from collective maintanance.
 
 Unmaintained packages that are of significant interest can be adopted
 by ocaml-community. Maintenance then performed collaboratively by the
@@ -19,14 +19,15 @@ At minimum, maintenance consists of updating software to keep it
 working over time, as well as maintaining the corresponding OPAM
 package. It also includes adding needed features, refactoring code,
 adding and improving documentation, improving the style of the code,
-adding tests, etc.
+adding tests, _etc_.
 
 Changes made during maintenance should take into account the needs of
 the existing user community, including the need for backward compatibility.
 
 ## Who runs this github organization?
 
-This organization is run by volunteers from the OCaml
+This organization is run by
+[volunteers](https://github.com/orgs/ocaml-community/people) from the OCaml
 community. Everyone is welcome (you don't need to be a very
 experienced OCaml programmer to participate).
 
@@ -42,9 +43,9 @@ experienced OCaml programmer to participate).
 
   The official ocaml organization is for maintaining the OCaml
   compiler itself, OPAM, odoc, and other key infrastructural
-  software. The ocaml-community github organization is for adopting
-  and maintaining packages that are of widespread use but which lack
-  maintainers.
+  software. The ocaml-community GitHub organization is for adopting
+  and maintaining unofficial packages that are of widespread use but might lack
+  active maintainers.
 
 - **How can I propose adopting a package?**
 
