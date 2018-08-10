@@ -1,4 +1,4 @@
-![Public Domain Logo](/images/public-domain-logo.svg | width=250)
+![Public Domain Logo](/images/public-domain-logo.svg) <!-- .element width="50%" -->
 
 To the extent possible under law, the contributors to
 <https://github.com/ocaml-community/manifesto> have waived all
