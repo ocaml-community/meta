@@ -1,34 +1,34 @@
-# A project dedicated to collaborative and community-driven long-term
-maintenance of OCaml packages.#
+# A project for the collaborative and community-driven long-term maintenance of OCaml packages.
 
 *Note that this README (the manifesto) is a work in progress and is meant to be
 collaboratively improved. Please contribute!*
 
-## What are the project's goals? ##
+## What are the project's goals?
 
 The project provides a place to maintain open source OCaml packages
 that lack a maintainer.
 
 Unmaintained packages that are of significant interest can be adopted
-by ocaml-community. Maintenance is done collaboratively by the
-community, although an official maintainer will be assigned to make
-decisions about pull requests where possible.
+by ocaml-community. Maintenance then performed collaboratively by the
+community. An official maintainer will be assigned to individual
+packages to make decisions about pull requests where possible.
 
-Maintenance is, at minimum, updating software to keep it working over
-time and maintaining the corresponding OPAM package, but can also
-include adding needed features, refactoring code, adding and improving
-documentation, improving the style of the code, adding tests, etc.
+At minimum, maintenance consists of updating software to keep it
+working over time, as well as maintaining the corresponding OPAM
+package. It also includes adding needed features, refactoring code,
+adding and improving documentation, improving the style of the code,
+adding tests, etc.
 
 Changes made during maintenance should take into account the needs of
 the existing user community, including the need for backward compatibility.
 
-## Who runs this organization? ##
+## Who runs this github organization?
 
 This organization is run by volunteers from the OCaml
 community. Everyone is welcome (you don't need to be a very
 experienced OCaml programmer to participate).
 
-## FAQ ##
+## FAQ
 
 - **Why the name ocaml-community?**
 
