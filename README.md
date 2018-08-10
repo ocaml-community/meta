@@ -1,12 +1,14 @@
-# A project for the collaborative and community-driven long-term maintenance of OCaml packages.
-
 *Note that this README (the manifesto) is a work in progress and is meant to be
 collaboratively improved. Please contribute!*
 
-## What are the project's goals?
+## What is OCaml-community?
 
-The project provides a place to maintain open source OCaml packages
-that lack a maintainer.
+OCaml-community is a github organization dedicated to the
+collaborative and community-driven long-term maintenance of OCaml
+packages.
+
+In other words, the project provides a place to maintain open source
+OCaml packages that lack a maintainer.
 
 Unmaintained packages that are of significant interest can be adopted
 by ocaml-community. Maintenance then performed collaboratively by the
