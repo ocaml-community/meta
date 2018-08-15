@@ -25,7 +25,7 @@ adding tests, _etc_.
 Changes made during maintenance should take into account the needs of
 the existing user community, including the need for backward compatibility.
 
-## Who runs this github organization?
+## Who runs this GitHub organization?
 
 This organization is run by
 [volunteers](https://github.com/orgs/ocaml-community/people) from the OCaml
@@ -36,17 +36,18 @@ experienced OCaml programmer to participate).
 
 - **Why the name ocaml-community?**
 
-  The ocaml-community organization takes its inspiration from the similar-named
-  [elm-community](https://github.com/elm-community) and
+  The ocaml-community organization takes its inspiration from the
+  similarly-named [elm-community](https://github.com/elm-community) and
   [coq-community](https://github.com/coq-community) projects.
 
 - **What is the difference between this and the ocaml organization's repositories?**
 
-  The official ocaml organization is for maintaining the OCaml
-  compiler itself, OPAM, odoc, and other key infrastructural
-  software. The ocaml-community GitHub organization is for adopting
-  and maintaining packages that are of widespread use but might lack
-  active maintainers.
+  The official [ocaml organization](https://github.com/ocaml) is for
+  maintaining the [OCaml compiler](https://github.com/ocaml/ocaml) itself,
+  [OPAM](https://github.com/ocaml/opam), [odoc](https://github.com/ocaml/odoc),
+  and other key infrastructural software. The ocaml-community GitHub
+  organization is for adopting and maintaining packages that are of
+  widespread use but might lack active maintainers.
 
 - **How can I propose adopting a package?**
 
@@ -67,7 +68,7 @@ experienced OCaml programmer to participate).
   Simply make a pull request. You can also open an issue requesting
   commit access.
 
-- **Will all projects in ocaml-community have some Continuous Integration (CI) setup?**
+- **Will all projects in ocaml-community have some Continuous Integration (CI) set up?**
 
   CI and automated testing is important for keeping code well
   maintained. Our goal is to eventually have an CI system, but we
