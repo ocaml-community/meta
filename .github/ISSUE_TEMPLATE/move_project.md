@@ -1,5 +1,6 @@
 ---
 name: Move a project to ocaml-community
+about: Template for proposing a new project for ocaml-community
 ---
 
 ## Propose to move a project to ocaml-community ##
