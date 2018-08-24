@@ -8,7 +8,7 @@ collaborative and community-driven long-term maintenance of OCaml
 packages.
 
 In other words, the organization provides a place to host open source
-OCaml packages that benefit from collective maintanance.
+OCaml packages that benefit from collective maintenance.
 
 Unmaintained packages that are of significant interest can be adopted
 by ocaml-community. Maintenance will then be performed collaboratively
