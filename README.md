@@ -32,6 +32,73 @@ This organization is run by
 community. Everyone is welcome (you don't need to be a very
 experienced OCaml programmer to participate).
 
+## How do I submit a package for inclusion?
+
+We currently follow (roughly) the following process:
+
+1. Someone who wants to get a new package included submits an issue to
+   the `meta` repository. The issue must contain:
+   1. The name of and information about the package, including why it's
+      of significance. (This is meant to be a low bar; even a few
+      actual users beyond the author is enough to mean "significant.")
+   2. The license that the code is under, to allow us to verify it is
+      under a reasonable open source license and thus eligible
+      for inclusion.
+   3. The current location of the most up to date version of the code
+      (say a github repository, or an old sourceforge download, or even
+      some abandoned tar file on an ftp site.)
+   4. Who the last known maintainer was, and what efforts have been
+      made to contact them. (Note that the submitter might themselves
+      be the last known maintainer.)
+   5. If the last known maintainer has been successfully contacted,
+      have they agreed to hand over the code? If they disagreed, why do
+      you think the code should be adopted anyway?
+   6. Have you found someone to act as the initial owner for the code,
+      and if so, who will that be? (Typically that will be at least the
+      person proposing inclusion, though there may be exceptions.)
+2. Following acceptance, the new repository is migrated or
+   created. The existing code should be imported _before_ any changes
+   are made, to preserve the pre-import state in the version control history.
+   1. In the case of a github repository that is being voluntarily handed
+      over by the existing maintainer, arrangements should be made to
+      transfer the existing repository to the `ocaml-community`
+      organization. This will preserve things like existing issues and
+      pull requests.
+   2. In the case of a repository that was not maintained on GitHub, the
+      best known version of the git repository will be imported.
+   3. In case of a non-git VCS repository, the repository should be
+      converted to git to preserve history and imported.
+   4. If the best known version of the code is simply a release
+       somewhere (like a tar file), it should be turned into a git
+       repository and imported.
+3. If the new maintainers are not already part of the
+   `ocaml-community` organization, they will be added as collaborators
+   on that repository with commit privileges.
+4. A few changes should be made to the code as soon as possible
+   following repository migration, not necessarily in this order:
+   1. A `.travis.yml` file should be added to the repository and the CI
+      system should be turned on by an administrator. Generally, builds
+      should be tried on the latest several versions of OCaml, on both
+      Linux and on MacOS.
+   2. The new code owners should be placed into a
+      [CODEOWNERS file](https://help.github.com/articles/about-codeowners/)
+      in the repository.
+   3. The repository should be carefully checked for references to
+      old repository locations, home pages, maintainers, etc., and
+      these references should be updated.
+   4. The code should be updated so that it compiles and runs on the latest
+      version of OCaml.
+   5. An OPAM package should be created and submitted for the package if
+      one does not yet exist, or the existing package should be updated
+      to point to the new repository location.
+   6. If feasible, older build systems should be converted to `dune`.
+5. Following import, the people listed in `CODEOWNERS` are expected to
+   handle pull requests and submitted issues with reasonable speed,
+   and are expected to keep the package compiling as new versions of
+   OCaml are released. If a maintainer cannot continue such duties, or
+   requires assistance, they should ask by filing an issue on the
+  `meta` repository.
+
 ## FAQ
 
 - **Why the name ocaml-community?**
@@ -49,16 +116,7 @@ experienced OCaml programmer to participate).
   organization is for adopting and maintaining packages that are of
   widespread use but might lack active maintainers.
 
-- **How can I propose adopting a package?**
-
-  Open an issue on the "manifesto" repository explaining what the
-  project is, where it is currently hosted (if anywhere), and what
-  efforts you have made to contact the existing maintainers to make
-  sure they do not intend to continue maintenance. (For example, you
-  could have posted an issue on the original project, or have sent 
-  e-mail to the current maintainers.)
-  
-- **Can I propose a project I wrote?**
+- **Can I propose `ocaml-community` adopt a project I wrote?**
 
   Yes, you can propose a project you wrote, as a way of
   preparing to pass on the maintenance to other community members.
@@ -71,5 +129,7 @@ experienced OCaml programmer to participate).
 - **Will all projects in ocaml-community have some Continuous Integration (CI) set up?**
 
   CI and automated testing is important for keeping code well
-  maintained. Our goal is to eventually have an CI system, but we
-  don't have one yet. You can volunteer to help with that!
+  maintained. We currently make use of the
+  [Travis CI](https://travis-ci.org/) system, and we suggest that all
+  repositories added to `ocaml-community` should have Travis configs
+  added.
