@@ -79,7 +79,10 @@ We currently follow (roughly) the following process:
    1. A `.travis.yml` file should be added to the repository and the CI
       system should be turned on by an administrator. Generally, builds
       should be tried on the latest several versions of OCaml, on both
-      Linux and on MacOS.
+      Linux and on MacOS. [**There are some helpful
+      instructions**](https://github.com/ocaml/ocaml-ci-scripts/blob/master/README-travis.md#opam-package-travis-opamsh)
+      in the [ocaml-ci-scripts](https://github.com/ocaml/ocaml-ci-scripts)
+      repo about setting this up.
    2. The new code owners should be placed into a
       [CODEOWNERS file](https://help.github.com/articles/about-codeowners/)
       in the repository.
