@@ -162,15 +162,19 @@ fact, avoid discussing other people when you should be discussing
 technical issues. When posting in the issue and pull request
 trackers, stick to discussion of the technical merits of a request,
 and be polite while you're doing it. Don't stray away from technical
-topics.
+topics. Never call an idea "stupid"; it's both insulting and
+uninformative. Instead, politely explain what the problems with a
+proposal are.
 
 If the other person isn't being polite, don't respond in kind, it
 only escalates things. _At most_, very, very, gently point them at
 this text. If the other person's bad behavior is difficult to
 ignore, or is habitual, or they have become a problem for the
 community, ask the owners of the OCaml-community organization to
-intervene. (We will not disclose that you have complained without
-your permission.)
+intervene. We will not disclose that you have complained without
+your permission. We will attempt to get the person in question to
+change their behavior, or, if that appears to be futile, we will ban
+them from further participation in the community.
 
 (None of this should need saying, as you should probably try to be
 polite throughout your life regardless of the situation. Being nice,
