@@ -161,7 +161,7 @@ personal. Don't make personal attacks against other people, and in
 fact, avoid discussing other people when you should be discussing
 technical issues. When posting in the issue and pull request
 trackers, stick to discussion of the technical merits of a request,
-and be polite while you're doing it. Don't stray off of technical
+and be polite while you're doing it. Don't stray away from technical
 topics.
 
 If the other person isn't being polite, don't respond in kind, it
