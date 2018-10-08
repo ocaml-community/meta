@@ -134,7 +134,7 @@ We currently follow (roughly) the following process:
   repositories added to `ocaml-community` should have Travis configs
   added.
 
-- **I don't see a formal Code of Conduct. Does that mean I can be a jerk to other people?**
+- **Can I be a jerk to other participants?**
 
   Of course not. Contributors to our repositories are expected to
   behave in a friendly and welcoming manner. When people contribute
@@ -165,11 +165,11 @@ We currently follow (roughly) the following process:
   topics.
 
   If the other person isn't being polite, don't respond in kind, it
-  only escalates things. _At most_, very, very, gently point
-  them at this F.A.Q entry. If the other person's bad behavior is too
-  consistently unpleasant to ignore, and they have become a problem
-  for the community, ask the owners of the OCaml-community
-  organization to intervene.
+  only escalates things. _At most_, very, very, gently point them at
+  this F.A.Q entry. If the other person's bad behavior is difficult
+  ignore, or is habitual, or they have become a problem for the
+  community, ask the owners of the OCaml-community organization to
+  intervene.
 
   (None of this should need saying, as you should probably try to be
   polite throughout your life regardless of the situation. Being nice,
