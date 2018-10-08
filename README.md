@@ -166,7 +166,7 @@ topics.
 
 If the other person isn't being polite, don't respond in kind, it
 only escalates things. _At most_, very, very, gently point them at
-this text. If the other person's bad behavior is difficult
+this text. If the other person's bad behavior is difficult to
 ignore, or is habitual, or they have become a problem for the
 community, ask the owners of the OCaml-community organization to
 intervene. (We will not disclose that you have complained without
