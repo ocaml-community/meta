@@ -133,3 +133,45 @@ We currently follow (roughly) the following process:
   [Travis CI](https://travis-ci.org/) system, and we suggest that all
   repositories added to `ocaml-community` should have Travis configs
   added.
+
+- **I don't see a formal Code of Conduct. Does that mean I can be a jerk to other people?**
+
+  Of course not. Contributors to our repositories are expected to
+  behave in a friendly and welcoming manner. When people contribute
+  fixes to a project you're helping to maintain, remember that they're
+  spending time and effort improving open source software, often with
+  no compensation other than the thanks and good-will of other
+  people. Be nice, and thank them for the work they've done.
+
+  If you don't like some technical aspect of a proposal or
+  contribution, then try to convey that in a polite and friendly
+  manner. We're all trying to make the best possible technical
+  decisions to improve software used by the OCaml community, and being
+  rude to others interferes with making clear decisions, alienates
+  valuable contributors, and makes everyone's life more stressful.
+
+  If, say, someone is angry and irate when they post a bug report,
+  there is no reason to reply in a like manner — de-escalate the
+  situation, don't throw fuel on the fire. (Everyone has bad days, and
+  there's no reason to turn someone else's bad mood into a sustained
+  argument.)
+
+  It is especially important to never make a technical discussion
+  personal. Don't make personal attacks against other people, and in
+  fact, avoid discussing other people when you should be discussing
+  technical issues. When posting in the issue and pull request
+  trackers, stick to discussion of the technical merits of a request,
+  and be polite while you're doing it. Don't stray off of technical
+  topics.
+
+  If the other person isn't being polite, don't respond in kind, it
+  only escalates things. _At most_, very, very, gently point
+  them at this F.A.Q entry. If the other person's bad behavior is too
+  consistently unpleasant to ignore, and they have become a problem
+  for the community, ask the owners of the OCaml-community
+  organization to intervene.
+
+  (None of this should need saying, as you should probably try to be
+  polite throughout your life regardless of the situation. Being nice,
+  even when you're under stress or the other person isn't being nice,
+  is always the best policy.)
