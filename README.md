@@ -1,4 +1,4 @@
-*Note that this README (the manifesto) is a work in progress and is meant to be
+Note that this README (the manifesto) is a work in progress and is meant to be
 collaboratively improved. Please contribute!*
 
 ## What is OCaml-community?
@@ -134,14 +134,15 @@ We currently follow (roughly) the following process:
   repositories added to `ocaml-community` should have Travis configs
   added.
 
-- **Can I be a jerk to other participants?**
+- **Should I be polite when working with the community? What if
+    someone else isn't polite?**
 
-  Of course not. Contributors to our repositories are expected to
-  behave in a friendly and welcoming manner. When people contribute
-  fixes to a project you're helping to maintain, remember that they're
-  spending time and effort improving open source software, often with
-  no compensation other than the thanks and good-will of other
-  people. Be nice, and thank them for the work they've done.
+  Contributors to our repositories are expected to behave in a
+  friendly and welcoming manner. When people contribute fixes to a
+  project you're helping to maintain, remember that they're spending
+  time and effort improving open source software, often with no
+  compensation other than the thanks and good-will of other people. Be
+  nice, and thank them for the work they've done.
 
   If you don't like some technical aspect of a proposal or
   contribution, then try to convey that in a polite and friendly
