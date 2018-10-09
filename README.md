@@ -136,7 +136,7 @@ We currently follow (roughly) the following process:
 
 ## The Conduct We Expect of Project Participants
 
-# Polite behavior, and what to do if someone else isn't polite.
+### Polite behavior, and what to do if someone else isn't polite.
 
 Contributors to our repositories are expected to behave in a
 friendly and welcoming manner. When people contribute fixes to a
@@ -183,8 +183,7 @@ polite throughout your life regardless of the situation. Being nice,
 even when you're under stress or the other person isn't being nice,
 is always the best policy.)
 
-# Our expectations for our contributors, administrators, and package
-  maintainers.
+### Our expectations for our contributors, administrators, and package maintainers.
 
 We expect contributors:
 
