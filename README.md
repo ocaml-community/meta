@@ -134,7 +134,9 @@ We currently follow (roughly) the following process:
   repositories added to `ocaml-community` should have Travis configs
   added.
 
-## Polite behavior, and what to do if someone else isn't polite.
+## The Conduct We Expect of Project Participants
+
+# Polite behavior, and what to do if someone else isn't polite.
 
 Contributors to our repositories are expected to behave in a
 friendly and welcoming manner. When people contribute fixes to a
@@ -180,3 +182,48 @@ them from further participation in the community.
 polite throughout your life regardless of the situation. Being nice,
 even when you're under stress or the other person isn't being nice,
 is always the best policy.)
+
+# Our expectations for our contributors, administrators, and package
+  maintainers.
+
+We expect contributors:
+
+- To work in good faith to improve the software we maintain.
+- To try to keep our projects welcoming and fun for other people to work on.
+- To presume good faith on the part of other contributors.
+- To refrain from personal attacks, ad hominem argumentation, and the like.
+- To always remain polite and civil.
+- To restrict their discussions to relevant technical points.
+- To thank others for their contributions, as there is often little
+  or no other reward for working on open source software
+  than the gratitude of one's peers.
+- To request assistance from the community owners if an interpersonal
+  problem becomes intractable, rather than either suffering in silence
+  or deviating from civil behavior.
+
+We expect our administrators:
+
+- To work in good faith to maximize the productivity of the community.
+- To work to keep our community enjoyable to work in, cheerful, and
+  free of incivility.
+- To intervene quickly if they notice a conversation is veering away
+  from the standards we seek to uphold, or if a reasonable request is
+  made by participants in our community to intervene.
+- Not to neglect important technical requests made by community members.
+- To do their best (within reason) to make sure that important
+  packages remain well maintained.
+- To act responsibly when selecting new package maintainers and
+  administrators, taking into account both technical ability _and_
+  the ability of newly selected people to maintain a friendly,
+  productive, and welcoming work environment.
+
+We expect our project maintainers:
+
+- To uphold the same standards of conduct that all other community
+  members are held to.
+- To handle bug reports and pull requests with reasonable speed.
+- To make sure that their released packages work with the latest
+  version of OCaml, and to expeditiously create new releases if critical
+  bugs are fixed.
+- To turn over their projects to new maintainers if they cease to have
+  the time to manage their duties.
