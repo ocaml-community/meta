@@ -130,9 +130,9 @@ We currently follow (roughly) the following process:
 
   CI and automated testing is important for keeping code well
   maintained. We currently make use of the
-  [Travis CI](https://travis-ci.org/) system, and we suggest that all
-  repositories added to `ocaml-community` should have Travis configs
-  added.
+  [GitHub Actions](https://docs.github.com/en/actions) system,
+  and we suggest that all repositories added to `ocaml-community`
+  have a workflow set up to build and run tests.
 
 ## The Conduct We Expect of Project Participants
 
