@@ -76,7 +76,7 @@ We currently follow (roughly) the following process:
    on that repository with commit privileges.
 4. A few changes should be made to the code as soon as possible
    following repository migration, not necessarily in this order:
-   1. A `.travis.yml` file should be added to the repository and the CI
+   1. A GitHub Actions workflow should be added to the repository and the CI
       system should be turned on by an administrator. Generally, builds
       should be tried on the latest several versions of OCaml, on both
       Linux and on MacOS.
